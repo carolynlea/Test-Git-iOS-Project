@@ -21,6 +21,7 @@
 		DE2986DB18DDE75D001B9DE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2986BD18DDE75D001B9DE5 /* UIKit.framework */; };
 		DE2986E318DDE75D001B9DE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2986E118DDE75D001B9DE5 /* InfoPlist.strings */; };
 		DE2986E518DDE75D001B9DE5 /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2986E418DDE75D001B9DE5 /* gitTestTests.m */; };
+		DE2986F018DDED24001B9DE5 /* CLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2986EF18DDED24001B9DE5 /* CLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DE2986E018DDE75D001B9DE5 /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		DE2986E218DDE75D001B9DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE2986E418DDE75D001B9DE5 /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		DE2986EE18DDED24001B9DE5 /* CLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTest.h; sourceTree = "<group>"; };
+		DE2986EF18DDED24001B9DE5 /* CLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				DE2986CF18DDE75D001B9DE5 /* CLViewController.m */,
 				DE2986D118DDE75D001B9DE5 /* Images.xcassets */,
 				DE2986C018DDE75D001B9DE5 /* Supporting Files */,
+				DE2986EE18DDED24001B9DE5 /* CLTest.h */,
+				DE2986EF18DDED24001B9DE5 /* CLTest.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				DE2986C618DDE75D001B9DE5 /* main.m in Sources */,
 				DE2986CA18DDE75D001B9DE5 /* CLAppDelegate.m in Sources */,
+				DE2986F018DDED24001B9DE5 /* CLTest.m in Sources */,
 				DE2986D018DDE75D001B9DE5 /* CLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
